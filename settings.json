@@ -1,209 +1,38 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "git_panel": {
-    "group_by": "staging",
-    "entry_primary_click_action": "view_file",
-    "folder_indicator": "chevron",
-    "file_icons": true,
-    "tree_view": true,
-    "fallback_branch_name": "dev",
-    "status_style": "label_color",
-  },
-  "diff_view_style": "unified",
-  "env": {
-    "PATH": "/Users/kononov.sergey11/.local/share/nvm/v24.21.0/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin",
-  },
-  "bottom_dock_layout": "contained",
+  "icon_theme": "Zed (Default)",
   "terminal": {
-    "flexible": true,
     "font_family": "JetBrainsMono Nerd Font",
-    "working_directory": "current_project_directory",
-    "font_size": 15,
-    "shell": {
-      "program": "/opt/homebrew/bin/fish",
-    },
-  },
-  "git": {
-    "inline_blame": {
-      "location": "status_bar",
-    },
-  },
-  "ui_font_weight": 400.0,
-  "preview_tabs": {
-    "enabled": false,
-  },
-  "context_servers": {
-    "figma-developer-mcp": {
-      "enabled": true,
-      "remote": false,
-      "command": "/bin/zsh",
-      "args": ["-lc", "set -e; export FIGMA_API_KEY=\"$(/usr/bin/security find-generic-password -s zed-figma-developer-mcp -w)\"; exec /Users/kononov.sergey11/.local/share/nvm/v24.21.0/bin/npx -y figma-developer-mcp --stdio"],
-      "env": {
-        "PATH": "/Users/kononov.sergey11/.local/share/nvm/v24.21.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin",
-      },
-    },
-    "codegraph": {
-      "enabled": true,
-      "remote": false,
-      "command": "/Users/kononov.sergey11/.local/share/nvm/v24.21.0/bin/codegraph",
-      "args": ["serve", "--mcp"],
-      "timeout": 60,
-    },
-  },
-  "icon_theme": "Catppuccin Frappé",
-  "language_models": {
-    "ollama": {
-      "api_url": "http://localhost:11434",
-    },
-    "openai_compatible": {
-      "AI Tunnel": {
-        "api_url": "https://api.aitunnel.ru/v1/",
-        "available_models": [
-          {
-            "name": "gpt-6-luna-pro",
-            "max_tokens": 1050000,
-            "max_output_tokens": 128000,
-            "max_completion_tokens": 32000,
-            "reasoning_effort": "high",
-            "capabilities": {
-              "tools": true,
-              "images": true,
-              "parallel_tool_calls": false,
-              "prompt_cache_key": false,
-              "chat_completions": true,
-              "interleaved_reasoning": false,
-              "max_tokens_parameter": false,
-            },
-          },
-          {
-            "name": "gpt-6-sol",
-            "max_tokens": 1050000,
-            "max_output_tokens": 128000,
-            "max_completion_tokens": 32000,
-            "reasoning_effort": "high",
-            "capabilities": {
-              "tools": true,
-              "images": true,
-              "parallel_tool_calls": false,
-              "prompt_cache_key": false,
-              "chat_completions": true,
-              "interleaved_reasoning": false,
-              "max_tokens_parameter": false,
-            },
-          },
-          {
-            "name": "glm-5.3-flash",
-            "max_tokens": 1310000,
-            "max_output_tokens": 128000,
-            "max_completion_tokens": 8192,
-            "reasoning_effort": "high",
-            "capabilities": {
-              "tools": true,
-              "images": true,
-              "parallel_tool_calls": true,
-              "prompt_cache_key": true,
-              "chat_completions": true,
-              "interleaved_reasoning": false,
-              "max_tokens_parameter": false,
-            },
-          },
-        ],
-      },
-    },
-  },
-  "agent": {
-    "auto_compact": {
-      "threshold": "90%"
-    },
-    "default_profile": "write",
-    "threads_sidebar": {
-      "position": "left",
-    },
-    "sandbox_permissions": {
-      "network_hosts": ["raw.githubusercontent.com", "zed.dev"],
-    },
-    "message_editor_min_lines": 6,
-    "enable_feedback": false,
-    "tool_permissions": {
-      "default": "allow",
-      "tools": {
-        "delete_path": {
-          "default": "confirm",
-        },
-      },
-    },
-    "profiles": {
-      "plan": {
-        "default_model": {
-          "provider": "AI Tunnel",
-          "model": "gpt-6-sol",
-          "enable_thinking": true,
-          "effort": "high",
-        },
-        "name": "Plan",
-        "tools": {
-          "terminal": true,
-          "spawn_agent": true,
-          "skill": true,
-          "read_file": true,
-          "list_directory": true,
-          "list_agents_and_models": true,
-          "grep": true,
-          "find_path": true,
-          "fetch": true,
-          "diagnostics": true,
-          "copy_path": true,
-          "ask_user": true,
-        },
-        "enable_all_context_servers": false,
-        "context_servers": {},
-      },
-    },
-    "default_model": {
-      "effort": "high",
-      "provider": "AI Tunnel",
-      "model": "gpt-6-luna-pro",
-      "enable_thinking": true,
-    },
-    "thinking_display": "always_collapsed",
-    "favorite_models": [],
-    "play_sound_when_agent_done": "never",
-    "model_parameters": [],
-  },
-  "disable_ai": false,
-  "minimap": {
-    "show": "always",
-  },
-  "format_on_save": "on",
-  "autosave": "on_focus_change",
-  "languages": {
-    "TSX": {
-      "code_actions_on_format": {
-        "source.fixAll.eslint": true,
-      },
-      "format_on_save": "on",
-      "formatter": [],
-    },
-    "CSS": { "language_servers": ["vtsls"] },
+    "font_fallbacks": [
+      "monospace"
+    ]
   },
   "base_keymap": "VSCode",
-  "ui_font_size": 17.0,
-  "buffer_font_size": 15.0,
+  "minimap": {
+    "show": "always"
+  },
+  "autosave": "on_window_change",
+  "format_on_save": "on",
+  "agent_servers": {
+    "cursor": {
+      "type": "registry"
+    }
+  },
+  "ui_font_size": 16,
+  "buffer_font_size": 15,
   "theme": {
-    "mode": "system",
+    "mode": "dark",
     "light": "One Light",
-    "dark": "VSCode Dark Modern",
+    "dark": "Ayu Dark",
   },
   "auto_install_extensions": {
-    "catppuccin-icons": true,
-    "css-modules-kit": true,
-    "dockerfile": true,
-    "env": true,
-    "git-firefly": true,
-    "html": true,
-    "less": true,
-    "scss": true,
-    "stylelint": true,
-    "svelte": true,
-    "vscode-dark-modern": true
+    "html": true
   },
 }
