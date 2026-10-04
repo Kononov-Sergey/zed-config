@@ -8,6 +8,13 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
   "colorize_brackets": true,
+  "indent_guides": {
+    "enabled": true,
+    "line_width": 1,
+    "active_line_width": 2,
+    "coloring": "indent_aware",
+    "background_coloring": "disabled",
+  },
   "git": {
     "inline_blame": {
       "location": "status_bar",
@@ -67,7 +74,7 @@
     "one-dark-pro": true,
     "scss": true,
     "svelte": true,
-    "vscode-dark-modern": true
+    "vscode-dark-modern": true,
   },
   "markdown_preview": {
     "open_markdown_files_in_preview": true,
