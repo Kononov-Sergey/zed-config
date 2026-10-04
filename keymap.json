@@ -1,0 +1,113 @@
+// Zed keymap
+//
+// For information on binding keys, see the Zed
+// documentation: https://zed.dev/docs/key-bindings
+// To see the default key bindings run `zed: open default keymap`
+// from the command palette.
+[
+  {
+    "context": "Workspace",
+    "use_key_equivalents": true,
+    "bindings": {
+      "ctrl-`": "terminal_panel::Toggle",
+      "cmd-l": "workspace::ToggleLeftDock",
+      "cmd-b": "workspace::ToggleRightDock"
+    }
+  },
+  {
+    "context": "Editor",
+    "use_key_equivalents": true,
+    "bindings": {
+      "cmd-shift-l": "agent::AddSelectionToThread"
+    }
+  },
+  {
+    "context": "Pane",
+    "use_key_equivalents": true,
+    "bindings": {
+      "ctrl--": "pane::ActivatePreviousItem",
+      "ctrl-_": null,
+      "alt-cmd-left": "pane::GoBack",
+      "alt-cmd-right": "pane::GoForward",
+      "cmd-r w": ["pane::CloseAllItems", { "close_pinned": true }]
+    }
+  },
+  {
+    "context": "Workspace",
+    "unbind": {
+      "cmd-r": "workspace::ToggleRightDock"
+    }
+  },
+  {
+    "context": "Editor",
+    "unbind": {
+      "cmd-l": "editor::SelectLine"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "alt-cmd-l": "multi_workspace::ToggleWorkspaceSidebar"
+    }
+  },
+  {
+    "context": "Workspace",
+    "unbind": {
+      "alt-cmd-j": "multi_workspace::ToggleWorkspaceSidebar"
+    }
+  },
+  {
+    "context": "Editor",
+    "unbind": {
+      "cmd-shift-l": "editor::SelectAllMatches"
+    }
+  },
+  {
+    "context": "KeymapEditor",
+    "unbind": {
+      "cmd-e": "zed::OpenKeymapFile"
+    }
+  },
+  {
+    "context": "Editor && mode == full",
+    "unbind": {
+      "cmd-e": "buffer_search::UseSelectionForFind"
+    }
+  },
+  {
+    "context": "AgentPanel",
+    "bindings": {
+      "cmd-e": "project_panel::ToggleFocus"
+    }
+  },
+  {
+    "context": "AgentPanel",
+    "unbind": {
+      "cmd-shift-e": "project_panel::ToggleFocus"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "cmd-e": "project_panel::ToggleFocus"
+    }
+  },
+  {
+    "context": "Workspace",
+    "unbind": {
+      "cmd-shift-e": "project_panel::ToggleFocus"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "cmd-g": "git_panel::ToggleFocus"
+    }
+  },
+  {
+    "context": "Workspace",
+    "unbind": {
+      "ctrl-shift-g": "git_panel::ToggleFocus"
+    }
+  }
+]
