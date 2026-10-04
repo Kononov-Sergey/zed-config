@@ -32,6 +32,10 @@
   "agent_servers": {
     "cursor": {
       "favorite_config_option_values": {
+        "model": [
+          "composer-2.5",
+          "grok-4.7"
+        ],
         "reasoning_effort": [
           "xhigh",
           "medium"
@@ -42,7 +46,7 @@
       },
       "default_config_options": {
         "context": "500k",
-        "reasoning_effort": "high",
+        "reasoning_effort": "medium",
         "model": "grok-4.7"
       },
       "type": "registry"
