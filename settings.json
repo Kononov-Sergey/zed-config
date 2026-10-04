@@ -7,7 +7,11 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "icon_theme": "Zed (Default)",
+  "icon_theme": {
+    "mode": "light",
+    "light": "Catppuccin Macchiato",
+    "dark": "Catppuccin Macchiato"
+  },
   "terminal": {
     "font_family": "JetBrainsMono Nerd Font",
     "font_fallbacks": [
@@ -30,9 +34,17 @@
   "theme": {
     "mode": "dark",
     "light": "One Light",
-    "dark": "Ayu Dark",
+    "dark": "Catppuccin Mocha - No Italics",
   },
   "auto_install_extensions": {
-    "html": true
+    "catppuccin": true,
+    "catppuccin-icons": true,
+    "css-modules-kit": true,
+    "dockerfile": true,
+    "env": true,
+    "git-firefly": true,
+    "html": true,
+    "scss": true,
+    "svelte": true
   },
 }
