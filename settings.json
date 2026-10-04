@@ -25,18 +25,24 @@
   "autosave": "on_window_change",
   "format_on_save": "on",
   "agent_servers": {
-    "cursor": {
-      "type": "registry"
-    }
+    
   },
   "ui_font_size": 16,
   "buffer_font_size": 15,
   "theme": {
     "mode": "dark",
     "light": "One Light",
-    "dark": "Ayu Dark",
+    "dark": "Catppuccin Mocha - No Italics",
   },
   "auto_install_extensions": {
-    "html": true
+    "catppuccin": true,
+    "catppuccin-icons": true,
+    "css-modules-kit": true,
+    "dockerfile": true,
+    "env": true,
+    "git-firefly": true,
+    "html": true,
+    "scss": true,
+    "svelte": true
   },
 }
