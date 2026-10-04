@@ -9,53 +9,43 @@
 {
   "git": {
     "inline_blame": {
-      "location": "status_bar"
-    }
+      "location": "status_bar",
+    },
   },
   "agent": {
     "favorite_models": [],
     "model_parameters": [],
-    "thinking_display": "always_collapsed"
+    "thinking_display": "always_collapsed",
   },
   "icon_theme": {
     "mode": "light",
     "light": "Catppuccin Macchiato",
-    "dark": "Catppuccin Macchiato"
+    "dark": "Catppuccin Macchiato",
   },
   "terminal": {
     "font_family": "JetBrainsMono Nerd Font",
-    "font_fallbacks": [
-      "monospace"
-    ]
+    "font_fallbacks": ["monospace"],
   },
   "base_keymap": "VSCode",
   "minimap": {
-    "show": "always"
+    "show": "always",
   },
   "autosave": "on_window_change",
   "format_on_save": "on",
   "agent_servers": {
     "cursor": {
       "favorite_config_option_values": {
-        "model": [
-          "composer-2.5",
-          "grok-4.7"
-        ],
-        "reasoning_effort": [
-          "xhigh",
-          "medium"
-        ],
-        "context": [
-          "500k"
-        ]
+        "model": ["composer-2.5", "grok-4.7"],
+        "reasoning_effort": ["xhigh", "medium"],
+        "context": ["500k"],
       },
       "default_config_options": {
         "context": "500k",
         "reasoning_effort": "medium",
-        "model": "composer-2.5"
+        "model": "composer-2.5",
       },
-      "type": "registry"
-    }
+      "type": "registry",
+    },
   },
   "ui_font_size": 16,
   "buffer_font_size": 15,
@@ -69,6 +59,7 @@
     "catppuccin-icons": true,
     "css-modules-kit": true,
     "dockerfile": true,
+    "ejs": true,
     "env": true,
     "git-firefly": true,
     "html": true,
@@ -76,5 +67,8 @@
     "scss": true,
     "svelte": true,
     "vscode-dark-modern": true
+  },
+  "markdown_preview": {
+    "open_markdown_files_in_preview": true,
   },
 }
