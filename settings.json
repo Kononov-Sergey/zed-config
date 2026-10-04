@@ -34,17 +34,9 @@
   "theme": {
     "mode": "dark",
     "light": "One Light",
-    "dark": "Catppuccin Mocha - No Italics",
+    "dark": "Ayu Dark",
   },
   "auto_install_extensions": {
-    "catppuccin": true,
-    "catppuccin-icons": true,
-    "css-modules-kit": true,
-    "dockerfile": true,
-    "env": true,
-    "git-firefly": true,
-    "html": true,
-    "scss": true,
-    "svelte": true
+    "html": true
   },
 }
