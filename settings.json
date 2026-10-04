@@ -36,6 +36,7 @@
         ]
       },
       "default_config_options": {
+        "context": "500k",
         "reasoning_effort": "xhigh",
         "model": "grok-4.7"
       },
