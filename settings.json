@@ -26,6 +26,19 @@
   "format_on_save": "on",
   "agent_servers": {
     "cursor": {
+      "favorite_config_option_values": {
+        "reasoning_effort": [
+          "xhigh",
+          "medium"
+        ],
+        "context": [
+          "500k"
+        ]
+      },
+      "default_config_options": {
+        "reasoning_effort": "xhigh",
+        "model": "grok-4.7"
+      },
       "type": "registry"
     }
   },
