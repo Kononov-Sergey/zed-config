@@ -38,7 +38,7 @@
       "default_config_options": {
         "context": "500k",
         "reasoning_effort": "xhigh",
-        "model": "grok-4.7"
+        "model": "gpt-5.6-sol"
       },
       "type": "registry"
     }
