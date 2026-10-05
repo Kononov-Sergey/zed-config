@@ -7,110 +7,32 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "diff_view_style": "unified",
+  "preview_tabs": {
+    "enable_preview_from_project_panel": false
+  },
+  "git_panel": {
+    "tree_view": true,
+    "group_by": "staging",
+    "status_style": "icon"
+  },
+  "colorize_brackets": true,
+  "indent_guides": {
+    "enabled": true,
+    "line_width": 1,
+    "active_line_width": 2,
+    "coloring": "indent_aware",
+    "background_coloring": "disabled",
+  },
   "git": {
     "inline_blame": {
-      "location": "status_bar"
-    }
+      "location": "status_bar",
+    },
   },
   "agent": {
-    "sandbox_permissions": {
-      "network_hosts": ["api.aitunnel.ru", "aitunnel.ru"],
-    },
-    "thinking_display": "always_collapsed",
-    "tool_permissions": {
-      "tools": {
-        "skill": {
-          "default": "allow",
-        },
-        "terminal": {
-          "default": "allow",
-        },
-      },
-    },
-    "default_model": {
-      "provider": "AI TUNNEL",
-      "model": "gpt-6-luna",
-      "enable_thinking": true,
-      "effort": "medium",
-    },
     "favorite_models": [],
     "model_parameters": [],
-  },
-    "languages": {
-    "TypeScript": {
-      "formatter": [],
-      "code_actions_on_format": {
-        "source.fixAll.eslint": true
-      },
-      "format_on_save": "on",
-      "use_autoclose": true
-    },
-    "TSX": {
-      "formatter": [],
-      "code_actions_on_format": {
-        "source.fixAll.eslint": true
-      },
-      "format_on_save": "on",
-      "use_autoclose": true
-    },
-    "JavaScript": {
-      "formatter": [],
-      "code_actions_on_format": {
-        "source.fixAll.eslint": true
-      },
-      "format_on_save": "on"
-    },
-    "JSX": {
-      "formatter": [],
-      "code_actions_on_format": {
-        "source.fixAll.eslint": true
-      },
-      "format_on_save": "on"
-    },
-    "JSON": {
-      "formatter": "prettier"
-    }
-  },
-"language_models": {
-    "openai_compatible": {
-      "AI TUNNEL": {
-        "api_url": "https://api.aitunnel.ru/v1/",
-        "available_models": [
-          {
-            "name": "glm-5.3-flash",
-            "max_tokens": 1048576,
-            "max_output_tokens": 65536,
-            "max_completion_tokens": 32000,
-            "reasoning_effort": "medium",
-            "capabilities": {
-              "tools": true,
-              "images": true,
-              "parallel_tool_calls": false,
-              "prompt_cache_key": false,
-              "chat_completions": true,
-              "interleaved_reasoning": false,
-              "max_tokens_parameter": false,
-            },
-          },
-          {
-            "name": "gpt-6-luna",
-            "max_tokens": 1050000,
-            "max_output_tokens": 128000,
-            "max_completion_tokens": 128000,
-            "reasoning_effort": "medium",
-            "capabilities": {
-              "tools": true,
-              "images": true,
-              "parallel_tool_calls": false,
-              "prompt_cache_key": false,
-              "chat_completions": true,
-              "interleaved_reasoning": false,
-              "max_tokens_parameter": false,
-            },
-          },
-        ],
-      },
-    },
+    "thinking_display": "always_collapsed",
   },
   "icon_theme": {
     "mode": "light",
@@ -129,6 +51,16 @@
   "format_on_save": "on",
   "agent_servers": {
     "cursor": {
+      "favorite_config_option_values": {
+        "model": ["composer-2.5", "grok-4.7"],
+        "reasoning_effort": ["xhigh", "medium"],
+        "context": ["500k"],
+      },
+      "default_config_options": {
+        "context": "500k",
+        "reasoning_effort": "medium",
+        "model": "grok-4.7",
+      },
       "type": "registry",
     },
   },
@@ -140,6 +72,20 @@
     "dark": "VSCode Dark Modern",
   },
   "auto_install_extensions": {
+    "catppuccin": true,
+    "catppuccin-icons": true,
+    "css-modules-kit": true,
+    "dockerfile": true,
+    "ejs": true,
+    "env": true,
+    "git-firefly": true,
     "html": true,
+    "one-dark-pro": true,
+    "scss": true,
+    "svelte": true,
+    "vscode-dark-modern": true,
+  },
+  "markdown_preview": {
+    "open_markdown_files_in_preview": true,
   },
 }
