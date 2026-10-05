@@ -33,38 +33,32 @@
   },
     "languages": {
     "TypeScript": {
-      "formatter": {
-        "code_actions": {
-          "source.fix_all.eslint": true,
-          "source.organizeImports": false
-        }
+      "formatter": [],
+      "code_actions_on_format": {
+        "source.fixAll.eslint": true
       },
       "format_on_save": "on",
       "use_autoclose": true
     },
     "TSX": {
-      "formatter": {
-        "code_actions": {
-          "source.fix_all.eslint": true,
-          "source.organizeImports": false
-        }
+      "formatter": [],
+      "code_actions_on_format": {
+        "source.fixAll.eslint": true
       },
       "format_on_save": "on",
       "use_autoclose": true
     },
     "JavaScript": {
-      "formatter": {
-        "code_actions": {
-          "source.fix_all.eslint": true
-        }
+      "formatter": [],
+      "code_actions_on_format": {
+        "source.fixAll.eslint": true
       },
       "format_on_save": "on"
     },
     "JSX": {
-      "formatter": {
-        "code_actions": {
-          "source.fix_all.eslint": true
-        }
+      "formatter": [],
+      "code_actions_on_format": {
+        "source.fixAll.eslint": true
       },
       "format_on_save": "on"
     },
