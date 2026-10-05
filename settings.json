@@ -9,16 +9,13 @@
 {
   "agent": {
     "sandbox_permissions": {
-      "network_hosts": [
-        "api.aitunnel.ru",
-        "aitunnel.ru"
-      ]
+      "network_hosts": ["api.aitunnel.ru", "aitunnel.ru"],
     },
     "thinking_display": "always_collapsed",
     "tool_permissions": {
       "tools": {
         "skill": {
-          "default": "allow"
+          "default": "allow",
         },
         "terminal": {
           "default": "allow",
@@ -59,7 +56,7 @@
             "name": "gpt-6-luna",
             "max_tokens": 1050000,
             "max_output_tokens": 128000,
-            "max_completion_tokens": 32000,
+            "max_completion_tokens": 128000,
             "reasoning_effort": "medium",
             "capabilities": {
               "tools": true,
