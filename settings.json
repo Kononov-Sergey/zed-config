@@ -7,6 +7,11 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "git": {
+    "inline_blame": {
+      "location": "status_bar"
+    }
+  },
   "agent": {
     "sandbox_permissions": {
       "network_hosts": ["api.aitunnel.ru", "aitunnel.ru"],
