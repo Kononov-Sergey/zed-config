@@ -11,6 +11,9 @@
     "thinking_display": "always_collapsed",
     "tool_permissions": {
       "tools": {
+        "skill": {
+          "default": "allow"
+        },
         "terminal": {
           "default": "allow",
         },
