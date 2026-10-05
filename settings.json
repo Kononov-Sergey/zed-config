@@ -8,6 +8,12 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
   "agent": {
+    "sandbox_permissions": {
+      "network_hosts": [
+        "api.aitunnel.ru",
+        "aitunnel.ru"
+      ]
+    },
     "thinking_display": "always_collapsed",
     "tool_permissions": {
       "tools": {
