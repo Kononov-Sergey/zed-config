@@ -8,6 +8,7 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
   "agent": {
+    "thinking_display": "always_collapsed",
     "tool_permissions": {
       "tools": {
         "terminal": {
