@@ -23,7 +23,7 @@
       "provider": "AI TUNNEL",
       "model": "gpt-6-luna",
       "enable_thinking": true,
-      "effort": "medium",
+      "effort": "xhigh",
     },
     "favorite_models": [],
     "model_parameters": [],
