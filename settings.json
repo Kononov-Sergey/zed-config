@@ -18,7 +18,7 @@
     },
     "default_model": {
       "provider": "AI TUNNEL",
-      "model": "glm-5.3-flash",
+      "model": "gpt-6-luna",
       "enable_thinking": true,
       "effort": "medium",
     },
@@ -47,9 +47,9 @@
             },
           },
           {
-            "name": "glm-5.3-flash",
-            "max_tokens": 1048576,
-            "max_output_tokens": 943717,
+            "name": "gpt-6-luna",
+            "max_tokens": 1050000,
+            "max_output_tokens": 128000,
             "max_completion_tokens": 32000,
             "reasoning_effort": "medium",
             "capabilities": {
