@@ -12,18 +12,18 @@
     "tool_permissions": {
       "tools": {
         "terminal": {
-          "default": "allow"
-        }
-      }
+          "default": "allow",
+        },
+      },
     },
     "default_model": {
       "provider": "AI TUNNEL",
       "model": "glm-5.3-flash",
       "enable_thinking": true,
-      "effort": "medium"
+      "effort": "medium",
     },
     "favorite_models": [],
-    "model_parameters": []
+    "model_parameters": [],
   },
   "language_models": {
     "openai_compatible": {
@@ -43,34 +43,48 @@
               "prompt_cache_key": false,
               "chat_completions": true,
               "interleaved_reasoning": false,
-              "max_tokens_parameter": false
-            }
-          }
-        ]
-      }
-    }
+              "max_tokens_parameter": false,
+            },
+          },
+          {
+            "name": "glm-5.3-flash",
+            "max_tokens": 1048576,
+            "max_output_tokens": 943717,
+            "max_completion_tokens": 32000,
+            "reasoning_effort": "medium",
+            "capabilities": {
+              "tools": true,
+              "images": true,
+              "parallel_tool_calls": false,
+              "prompt_cache_key": false,
+              "chat_completions": true,
+              "interleaved_reasoning": false,
+              "max_tokens_parameter": false,
+            },
+          },
+        ],
+      },
+    },
   },
   "icon_theme": {
     "mode": "light",
     "light": "Catppuccin Macchiato",
-    "dark": "Catppuccin Macchiato"
+    "dark": "Catppuccin Macchiato",
   },
   "terminal": {
     "font_family": "JetBrainsMono Nerd Font",
-    "font_fallbacks": [
-      "monospace"
-    ]
+    "font_fallbacks": ["monospace"],
   },
   "base_keymap": "VSCode",
   "minimap": {
-    "show": "always"
+    "show": "always",
   },
   "autosave": "on_window_change",
   "format_on_save": "on",
   "agent_servers": {
     "cursor": {
-      "type": "registry"
-    }
+      "type": "registry",
+    },
   },
   "ui_font_size": 16,
   "buffer_font_size": 15,
@@ -80,6 +94,6 @@
     "dark": "VSCode Dark Modern",
   },
   "auto_install_extensions": {
-    "html": true
+    "html": true,
   },
 }
