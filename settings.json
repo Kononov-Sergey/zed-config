@@ -31,7 +31,7 @@
       "provider": "AI TUNNEL",
       "model": "glm-5.3-flash",
       "enable_thinking": true,
-      "effort": "medium",
+      "effort": "xhigh",
     },
     "favorite_models": [],
     "model_parameters": [],
