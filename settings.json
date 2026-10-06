@@ -141,9 +141,20 @@
   "theme": {
     "mode": "dark",
     "light": "One Light",
-    "dark": "VSCode Dark Modern",
+    "dark": "Catppuccin Frappé",
   },
   "auto_install_extensions": {
+    "catppuccin": true,
+    "catppuccin-icons": true,
+    "css-modules-kit": true,
+    "dockerfile": true,
+    "env": true,
+    "git-firefly": true,
     "html": true,
+    "less": true,
+    "scss": true,
+    "stylelint": true,
+    "svelte": true,
+    "vscode-dark-modern": true
   },
 }
