@@ -61,7 +61,7 @@
         "mode": "agent",
         "context": "500k",
         "reasoning_effort": "medium",
-        "model": "composer-2.5",
+        "model": "grok-4.7",
       },
       "type": "registry",
     },
