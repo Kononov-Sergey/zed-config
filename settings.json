@@ -14,7 +14,11 @@
   },
   "agent": {
     "sandbox_permissions": {
-      "network_hosts": ["api.aitunnel.ru", "aitunnel.ru"],
+      "network_hosts": [
+        "api.aitunnel.ru",
+        "aitunnel.ru",
+        "html.duckduckgo.com"
+      ],
     },
     "thinking_display": "always_collapsed",
     "tool_permissions": {
