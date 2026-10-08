@@ -61,7 +61,7 @@
         "mode": "plan",
         "context": "500k",
         "reasoning_effort": "xhigh",
-        "model": "default",
+        "model": "grok-4.7",
       },
       "type": "registry",
     },
