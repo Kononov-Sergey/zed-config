@@ -63,7 +63,7 @@
       "default_config_options": {
         "fast": "false",
         "mode": "agent",
-        "context": "500k",
+        "context": "256k",
         "reasoning_effort": "high",
         "model": "grok-4.7",
       },
