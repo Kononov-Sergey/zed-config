@@ -82,7 +82,7 @@
         "mode": "agent",
         "context": "256k",
         "reasoning_effort": "medium",
-        "model": "grok-4.7",
+        "model": "composer-2.5",
       },
       "type": "registry",
     },
