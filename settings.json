@@ -79,9 +79,9 @@
       },
       "default_config_options": {
         "fast": "false",
-        "mode": "agent",
+        "mode": "plan",
         "context": "256k",
-        "reasoning_effort": "high",
+        "reasoning_effort": "xhigh",
         "model": "grok-4.7",
       },
       "type": "registry",
