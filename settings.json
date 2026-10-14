@@ -82,7 +82,7 @@
         "mode": "agent",
         "context": "256k",
         "reasoning_effort": "low",
-        "model": "default",
+        "model": "grok-4.7",
       },
       "type": "registry",
     },
