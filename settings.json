@@ -81,7 +81,7 @@
         "fast": "false",
         "mode": "agent",
         "context": "256k",
-        "reasoning_effort": "high",
+        "reasoning_effort": "low",
         "model": "grok-4.7",
       },
       "type": "registry",
