@@ -67,26 +67,7 @@
   "autosave": "on_window_change",
   "format_on_save": "on",
   "agent_servers": {
-    "cursor": {
-      "favorite_config_option_values": {
-        "model": ["composer-2.5", "grok-4.7"],
-        "reasoning_effort": [
-          "medium",
-          "high",
-          "xhigh"
-        ],
-        "context": ["500k"],
-      },
-      "default_config_options": {
-        "fast": "false",
-        "mode": "agent",
-        "context": "256k",
-        "reasoning_effort": "high",
-        "model": "default",
-      },
-      "type": "registry",
     },
-  },
   "ui_font_size": 16,
   "buffer_font_size": 15,
   "theme": {
